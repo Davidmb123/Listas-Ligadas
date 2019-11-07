@@ -1,0 +1,22 @@
+ /*if(!(inicio.tarea.prioridad>limite)){
+                while(puntero.siguiente!=null && puntero.siguiente.tarea.prioridad<=limite&&cont<tamaño){
+                    puntero=puntero.siguiente;
+                    cont++;
+                }
+                if(!(cont==tamaño)) {
+                    puntero.siguiente.anterior = nuevo;
+                    nuevo.siguiente = puntero.siguiente;
+                    nuevo.anterior = puntero;
+                    puntero.siguiente = nuevo;
+                }
+                }
+            else{
+                    nuevo.siguiente = inicio;
+                    inicio = ultimo;
+                    ultimo.anterior = nuevo;
+                    inicio = nuevo;
+            }
+            ultimo.siguiente=inicio;
+            inicio.anterior=ultimo;
+
+        */
